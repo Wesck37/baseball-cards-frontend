@@ -19,7 +19,7 @@
 import axios from 'axios';
 
 // Load the backend base URL from environment variables
-const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000';
+const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000' || 'http://localhost:10000';
 
 // Function to send data to the backend
 export const sendDataToBackend = async (data) => {
